@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MPriceFooter it renders correctly 1`] = `
+<footer class="price-footer">
+  <!---->
+  <div class="container">
+    <div class="price-footer__content price-footer__content--narrow">
+      <div class="price-footer__info"><span class="price-footer__monthly">Total: </span>
+        <div class="price-footer__monthly-message" style="display: inline-block;" group="" mode="out-in" name="scale-fade"><span data-qa-locator="price-footer-monthly-price" class="price-footer__monthly-price">£1.00</span>
+          /month
+        </div>
+        <div class="price-footer__bottom-message">
+          No extra charge for paying monthly (£12.00
+          per year)
+          <!---->
+        </div>
+      </div>
+      <div class="price-footer__cta">
+        <m-button-stub tag="button" pop="true" block="true" data-qa-locator="price-footer-cta-button">
+          Continue
+        </m-button-stub>
+      </div>
+    </div>
+  </div>
+</footer>
+`;

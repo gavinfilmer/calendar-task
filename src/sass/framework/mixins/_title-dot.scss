@@ -1,0 +1,8 @@
+// Add pink dot after Title
+@mixin title-dot {
+  &::after {
+    color: $title-dot-color;
+    content: ".";
+    display: inline;
+  }
+}

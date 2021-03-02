@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Spacing renders correctly 1`] = `
+<div
+  class="m-spacing m-spacing--top-sm m-spacing--right-lg m-spacing--bottom-xl m-spacing--left-md"
+/>
+`;

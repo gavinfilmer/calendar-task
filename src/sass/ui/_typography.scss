@@ -1,0 +1,163 @@
+// Typography
+
+// Global font styles
+body {
+  @include font-size("base");
+
+  color: $color-text;
+  font-family: $font-family-sans-serif;
+  /* stylelint-disable-next-line property-no-unknown */
+  font-smooth: always;
+  -moz-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: subpixel-antialiased;
+  /* stylelint-disable-next-line property-no-unknown */
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  text-rendering: geometricPrecision;
+}
+
+.font-adjust--small {
+  @include font-size("sm");
+}
+
+// Selection
+::-moz-selection {
+  background: $color-sailor;
+  color: $color-white;
+}
+
+::selection {
+  background: $color-sailor;
+  color: $color-white;
+}
+
+// Family & weight
+h1,
+h2 {
+  font-family: $font-family-serif;
+  font-weight: $font-weight-bold;
+}
+
+h3,
+h4 {
+  font-weight: $font-weight-bold;
+}
+
+h5,
+h6 {
+  font-weight: $font-weight-semibold;
+}
+
+// Margin
+h1 {
+  margin-bottom: $pad-v-sm;
+}
+
+h2,
+h3,
+h4 {
+  margin-bottom: $pad-v-md;
+}
+
+p {
+  margin-bottom: $pad-v-sm;
+}
+
+.title-margin {
+  &--xl {
+    margin-bottom: $pad-v-xl;
+  }
+}
+
+// Mixins
+
+// Font sizes
+@each $heading in (h1, h2, h3, h4) {
+  #{$heading} {
+    @include font-size($heading);
+  }
+}
+
+.font--xxl {
+  @include font-size("xxl");
+}
+
+.font--xl {
+  @include font-size("xl");
+}
+
+.font--lg {
+  @include font-size("lg");
+}
+
+small,
+.font--small,
+.font--sm {
+  @include font-size("sm");
+}
+
+.font--micro,
+.font--xs {
+  @include font-size("xs");
+}
+
+.font--nano,
+.font--xxs {
+  @include font-size("xxs");
+}
+
+// Title Enhancements
+.title-dot {
+  @include title-dot;
+}
+
+.title-line-breaker > span {
+  @include breakpoint(xxs-only) {
+    display: block;
+  }
+}
+
+// Text-align
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+
+  // Align left on mob, align centre on tablet up,
+  &--xs-up {
+    text-align: left;
+
+    @include breakpoint(xs-up) {
+      text-align: center;
+    }
+  }
+}
+
+// Font weights
+.font-weight--regular {
+  font-weight: $font-weight-regular;
+}
+
+.font-weight--semibold {
+  font-weight: $font-weight-semibold;
+}
+
+.font-weight--bold {
+  font-weight: $font-weight-bold;
+}
+
+b,
+strong {
+  font-weight: $font-weight-bold;
+}
+
+p > a {
+  @include link;
+}

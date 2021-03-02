@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PaymentCard it should render correctly 1`] = `
+<div class="m-payment-card">
+  <div class="m-payment-card__inner">
+    <div class="m-payment-card__elements"><span data-qa-locator="payment-card-card-type" class="m-payment-card__description">
+
+      </span> <span class="m-payment-card__chip"></span>
+      <!---->
+      <div class="m-payment-card__number"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" height="32" width="100"><text x="0" y="32" text-anchor="start">
+            * * * *
+          </text></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" height="32" width="100"><text x="50%" y="32" text-anchor="middle">
+            * * * *
+          </text></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" height="32" width="100"><text x="50%" y="32" text-anchor="middle">
+            * * * *
+          </text></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" data-qa-locator="payment-card-digits" height="32" width="100"><text x="50%" y="32" text-anchor="middle">
+            * * * *
+          </text></svg></div> <span data-qa-locator="payment-card-expiry-date" class="m-payment-card__expiry">
+          Expires xx/xx
+        </span>
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`PaymentCard it should render correctly 2`] = `
+<div class="m-payment-card m-payment-card--Visa m-payment-card--Credit">
+  <div class="m-payment-card__inner">
+    <div class="m-payment-card__elements"><span data-qa-locator="payment-card-card-type" class="m-payment-card__description">
+        Visa Credit
+      </span> <span class="m-payment-card__chip"></span>
+      <!---->
+      <div class="m-payment-card__number"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" height="32" width="100"><text x="0" y="32" text-anchor="start">
+            * * * *
+          </text></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" height="32" width="100"><text x="50%" y="32" text-anchor="middle">
+            * * * *
+          </text></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" height="32" width="100"><text x="50%" y="32" text-anchor="middle">
+            * * * *
+          </text></svg> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 32" data-qa-locator="payment-card-digits" height="32" width="100"><text x="50%" y="25" text-anchor="middle">
+            1 2 3 4
+          </text></svg></div> <span data-qa-locator="payment-card-expiry-date" class="m-payment-card__expiry">
+          Expires 02/22
+        </span> <span class="m-payment-card__cardholder">
+        Mr A N Other
+      </span>
+    </div>
+  </div>
+</div>
+`;

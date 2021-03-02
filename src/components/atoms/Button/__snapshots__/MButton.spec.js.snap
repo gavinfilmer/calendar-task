@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MButton it passes children through 1`] = `
+<button class="m-button m-button--primary">
+  <!----> test
+  <!---->
+</button>
+`;
+
+exports[`MButton it renders the button correctly when no props are passed 1`] = `
+<button class="m-button m-button--primary">
+  <!---->
+  <!---->
+</button>
+`;
+
+exports[`MButton tag can be updated from default 1`] = `
+<a class="m-button m-button--primary">
+  <!---->
+  <!---->
+</a>
+`;

@@ -1,0 +1,239 @@
+@mixin button {
+  @include font-size("base");
+  appearance: none;
+  background: $button-background;
+  border: $button-border;
+  border-radius: $button-border-radius;
+  color: $button-color;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $button-font-family;
+
+  // font smoothing to alias text
+  // Assists with consistent aliasing where there is
+  // strange rendering of button within fixed header
+  -webkit-font-smoothing: antialiased;
+  /* stylelint-disable-next-line property-no-unknown */
+  font-smoothing: antialiased;
+  font-weight: $button-font-weight;
+  line-height: $button-line-height;
+  margin: 0;
+  outline: none;
+  padding: $button-padding;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  transition: background-color $animation-speed-fast ease-in,
+    border $animation-speed-fast ease-in, color $animation-speed-fast ease-in;
+
+  &[disabled] {
+    cursor: not-allowed;
+  }
+}
+
+@mixin button-variant(
+  $button-variant-background,
+  $button-variant-background-hover,
+  $button-variant-background-disabled,
+  $button-variant-border,
+  $button-variant-border-hover,
+  $button-variant-border-disabled,
+  $button-variant-color,
+  $button-variant-color-hover,
+  $button-variant-color-disabled
+) {
+  background: $button-variant-background;
+  border: $button-variant-border;
+  color: $button-variant-color;
+
+  &:hover,
+  &:focus {
+    background: $button-variant-background-hover;
+    border: $button-variant-border-hover;
+    color: $button-variant-color-hover;
+  }
+
+  &[disabled],
+  &[disabled]:hover {
+    background: $button-variant-background-disabled;
+    border: $button-variant-border-disabled;
+    color: $button-variant-color-disabled;
+  }
+}
+
+@mixin button--primary {
+  @include button-variant(
+    $button-background-primary,
+    $button-background-primary-hover,
+    $button-background-primary-disabled,
+    $button-border-primary,
+    $button-border-primary-hover,
+    $button-border-primary-disabled,
+    $button-color-primary,
+    $button-color-primary-hover,
+    $button-color-primary-disabled
+  );
+}
+
+@mixin button--pop {
+  @include button-variant(
+    $button-background-pop,
+    $button-background-pop-hover,
+    $button-background-pop-disabled,
+    $button-border-pop,
+    $button-border-pop-hover,
+    $button-border-pop-disabled,
+    $button-color-pop,
+    $button-color-pop-hover,
+    $button-color-pop-disabled
+  );
+}
+
+@mixin button--secondary {
+  @include button-variant(
+    $button-background-secondary,
+    $button-background-secondary-hover,
+    $button-background-secondary-disabled,
+    $button-border-secondary,
+    $button-border-secondary-hover,
+    $button-border-secondary-disabled,
+    $button-color-secondary,
+    $button-color-secondary-hover,
+    $button-color-secondary-disabled
+  );
+}
+
+@mixin button--multipet {
+  @include button-variant(
+    $button-background-multipet,
+    $button-background-multipet-hover,
+    $button-background-multipet-disabled,
+    $button-border-multipet,
+    $button-border-multipet-hover,
+    $button-border-multipet-disabled,
+    $button-color-multipet,
+    $button-color-multipet-hover,
+    $button-color-multipet-disabled
+  );
+}
+
+@mixin button--active {
+  @include button-variant(
+    $button-background-active,
+    $button-background-active-hover,
+    $button-background-active-disabled,
+    $button-border-active,
+    $button-border-active-hover,
+    $button-border-active-disabled,
+    $button-color-active,
+    $button-color-active-hover,
+    $button-color-active-disabled
+  );
+}
+
+// Chevron buttons
+// Set base styling and positioning using `button--chevron` based on default of
+// chevron coming after the text. Then use the additional placement mixins eg
+// `button--chevron-right` to add the background icon and additional styling.
+
+@mixin button--chevron {
+  font-weight: 500;
+
+  &:hover,
+  &:focus {
+    color: $color-eire-darker;
+  }
+
+  .m-button__icon {
+    transition: transform $animation-speed-fast ease-out;
+  }
+}
+
+@mixin button--chevron-right {
+  &:hover,
+  &:focus {
+    .m-button__icon {
+      transform: translateX($pad-h-xs);
+    }
+  }
+}
+
+@mixin button--chevron-left {
+  &:hover,
+  &:focus {
+    .m-button__icon {
+      transform: translateX(-$pad-h-xs);
+    }
+  }
+}
+
+@mixin button--progress {
+  padding-right: 36px;
+  position: relative;
+
+  $spinner-size: 20px;
+
+  &::after {
+    animation-duration: $animation-speed-slow;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+    animation-timing-function: linear;
+    background-image: url("#{$patterns-asset-path}/svg/progress-ring-outer.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+    height: $spinner-size;
+    position: absolute;
+    right: $spinner-size / 2;
+    top: $spinner-size / 2;
+    width: $spinner-size;
+  }
+
+  &::before {
+    animation-direction: reverse;
+    animation-duration: $animation-speed-slow;
+    animation-iteration-count: infinite;
+    animation-name: spin;
+    animation-timing-function: linear;
+    background-image: url("#{$patterns-asset-path}/svg/progress-ring-inner.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: $spinner-size/1.5;
+    content: "";
+    height: $spinner-size;
+    position: absolute;
+    right: $spinner-size / 2;
+    top: $spinner-size / 2;
+    width: $spinner-size;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotateZ(0deg);
+    }
+    100% {
+      transform: rotateZ(360deg);
+    }
+  }
+}
+
+@mixin button--progress-white {
+  &::before {
+    background-image: url("#{$patterns-asset-path}/svg/progress-ring-inner-white.svg");
+  }
+
+  &::after {
+    background-image: url("#{$patterns-asset-path}/svg/progress-ring-inner-white.svg");
+  }
+}
+
+@mixin button--override {
+  // Remove all default styling
+  all: unset;
+
+  // Backup for IE11
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}

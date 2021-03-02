@@ -1,0 +1,7 @@
+@mixin select-toggle {
+  background-image: url("#{$patterns-asset-path}/icons/chevron-down-eire.svg");
+  background-position: right $pad-h-md center;
+  background-repeat: no-repeat;
+  padding-right: calc(1.5em + #{$pad-h-md});
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,8 @@
+@mixin link {
+  color: $color-link;
+  text-decoration: underline;
+}
+
+@mixin link--on-dark {
+  color: $color-white;
+}

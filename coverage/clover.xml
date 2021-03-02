@@ -1,0 +1,1815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1614099298336" clover="3.2.0">
+  <project timestamp="1614099298336" name="All files">
+    <metrics statements="1113" coveredstatements="238" conditionals="206" coveredconditionals="76" methods="524" coveredmethods="111" elements="1843" coveredelements="425" complexity="0" loc="1113" ncloc="1113" packages="82" files="150" classes="150"/>
+    <package name="atoms.Burger">
+      <metrics statements="4" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="2"/>
+      <file name="Burger.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Burger/Burger.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="MBurger.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Burger/MBurger.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Button">
+      <metrics statements="52" coveredstatements="25" conditionals="32" coveredconditionals="25" methods="20" coveredmethods="7"/>
+      <file name="Button.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Button/Button.stories.js">
+        <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="128" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+      </file>
+      <file name="ButtonText.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Button/ButtonText.stories.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+      </file>
+      <file name="MButton.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Button/MButton.vue">
+        <metrics statements="30" coveredstatements="25" conditionals="32" coveredconditionals="25" methods="7" coveredmethods="7"/>
+        <line num="53" count="12" type="stmt"/>
+        <line num="132" count="20" type="stmt"/>
+        <line num="150" count="19" type="stmt"/>
+        <line num="196" count="7" type="stmt"/>
+        <line num="201" count="43" type="stmt"/>
+        <line num="203" count="43" type="cond" truecount="4" falsecount="0"/>
+        <line num="204" count="4" type="stmt"/>
+        <line num="207" count="43" type="stmt"/>
+        <line num="210" count="43" type="cond" truecount="2" falsecount="0"/>
+        <line num="211" count="1" type="stmt"/>
+        <line num="214" count="42" type="stmt"/>
+        <line num="217" count="43" type="cond" truecount="4" falsecount="0"/>
+        <line num="218" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="223" count="41" type="cond" truecount="4" falsecount="0"/>
+        <line num="227" count="9" type="stmt"/>
+        <line num="230" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="231" count="1" type="stmt"/>
+        <line num="234" count="31" type="cond" truecount="1" falsecount="1"/>
+        <line num="235" count="0" type="stmt"/>
+        <line num="238" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="239" count="3" type="stmt"/>
+        <line num="242" count="28" type="cond" truecount="1" falsecount="1"/>
+        <line num="243" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="246" count="28" type="stmt"/>
+        <line num="250" count="43" type="cond" truecount="1" falsecount="1"/>
+        <line num="251" count="0" type="stmt"/>
+        <line num="255" count="43" type="cond" truecount="1" falsecount="1"/>
+        <line num="256" count="0" type="stmt"/>
+        <line num="260" count="43" type="cond" truecount="1" falsecount="1"/>
+        <line num="261" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.ButtonHelp">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ButtonHelp.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/ButtonHelp/ButtonHelp.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+      <file name="MButtonHelp.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/ButtonHelp/MButtonHelp.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="13" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.CarouselTimerButton">
+      <metrics statements="14" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="CarouselTimerButton.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/CarouselTimerButton/CarouselTimerButton.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="111" count="0" type="stmt"/>
+      </file>
+      <file name="MCarouselTimerButton.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/CarouselTimerButton/MCarouselTimerButton.vue">
+        <metrics statements="9" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="77" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="82" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.CheckboxGroup">
+      <metrics statements="10" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="4"/>
+      <file name="CheckboxGroup.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/CheckboxGroup/CheckboxGroup.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+      <file name="MCheckboxGroup.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/CheckboxGroup/MCheckboxGroup.vue">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="36" count="4" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="50" count="3" type="stmt"/>
+        <line num="63" count="7" type="stmt"/>
+        <line num="66" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.CheckboxInput">
+      <metrics statements="6" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="5" coveredmethods="3"/>
+      <file name="CheckboxInput.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/CheckboxInput/CheckboxInput.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+      <file name="MCheckboxInput.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/CheckboxInput/MCheckboxInput.vue">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="3"/>
+        <line num="30" count="1" type="stmt"/>
+        <line num="61" count="14" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="70" count="14" type="cond" truecount="3" falsecount="0"/>
+      </file>
+    </package>
+    <package name="atoms.CloseButton">
+      <metrics statements="5" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="CloseButton.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/CloseButton/CloseButton.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+      <file name="MCloseButton.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/CloseButton/MCloseButton.vue">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.FieldAutocomplete">
+      <metrics statements="20" coveredstatements="5" conditionals="7" coveredconditionals="0" methods="12" coveredmethods="3"/>
+      <file name="FieldAutocomplete.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/FieldAutocomplete/FieldAutocomplete.stories.js">
+        <metrics statements="14" coveredstatements="0" conditionals="7" coveredconditionals="0" methods="8" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="5"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+      </file>
+      <file name="MFieldAutocomplete.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/FieldAutocomplete/MFieldAutocomplete.vue">
+        <metrics statements="6" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="63" count="4" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="70" count="3" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.FieldCurrency">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="FieldCurrency.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/FieldCurrency/FieldCurrency.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.FieldTelephone">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FieldTelephone.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/FieldTelephone/FieldTelephone.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Fieldset">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Fieldset.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Fieldset/Fieldset.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="MFieldset.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Fieldset/MFieldset.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Form">
+      <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="Form.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Form/Form.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+      </file>
+      <file name="MForm.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Form/MForm.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="25" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.FormGroup">
+      <metrics statements="7" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="FormGroup.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/FormGroup/FormGroup.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+      </file>
+      <file name="MFormGroup.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/FormGroup/MFormGroup.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.HeadingOne">
+      <metrics statements="7" coveredstatements="2" conditionals="6" coveredconditionals="2" methods="5" coveredmethods="1"/>
+      <file name="HeadingOne.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/HeadingOne/HeadingOne.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+      <file name="MHeadingOne.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/HeadingOne/MHeadingOne.vue">
+        <metrics statements="3" coveredstatements="2" conditionals="6" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <line num="47" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="48" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="atoms.Help">
+      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="Help.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Help/Help.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+      </file>
+      <file name="MHelp.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Help/MHelp.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.HelpText">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="HelpText.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/HelpText/HelpText.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Hr">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="Hr.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Hr/Hr.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+      <file name="MHr.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Hr/MHr.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Icon">
+      <metrics statements="13" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="4"/>
+      <file name="Icon.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Icon/Icon.stories.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+      </file>
+      <file name="MIcon.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Icon/MIcon.vue">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="15" count="21" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="49" count="21" type="stmt"/>
+        <line num="54" count="21" type="cond" truecount="2" falsecount="0"/>
+        <line num="55" count="6" type="stmt"/>
+        <line num="60" count="57" type="stmt"/>
+      </file>
+      <file name="custom-icons.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Icon/custom-icons.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="atoms.Label">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Label.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Label/Label.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Legend">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Legend.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Legend/Legend.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+      <file name="MLegend.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Legend/MLegend.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="19" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.List">
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="List.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/List/List.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.MessageBox">
+      <metrics statements="6" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="2"/>
+      <file name="MMessageBox.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/MessageBox/MMessageBox.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="24" count="6" type="stmt"/>
+        <line num="34" count="7" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="MessageBox.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/MessageBox/MessageBox.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.More">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="More.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/More/More.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Overlay">
+      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="MOverlay.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Overlay/MOverlay.vue">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="17" count="1" type="stmt"/>
+      </file>
+      <file name="Overlay.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Overlay/Overlay.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.PageMain">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="PageMain.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PageMain/PageMain.stories.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.PageSection">
+      <metrics statements="6" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+      <file name="MPageSection.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PageSection/MPageSection.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="42" count="8" type="stmt"/>
+        <line num="51" count="8" type="stmt"/>
+      </file>
+      <file name="PageSection.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PageSection/PageSection.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.PieChart">
+      <metrics statements="37" coveredstatements="0" conditionals="10" coveredconditionals="0" methods="8" coveredmethods="0"/>
+      <file name="MPieChart.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PieChart/MPieChart.vue">
+        <metrics statements="24" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="50" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="111" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+      </file>
+      <file name="PieChart.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PieChart/PieChart.stories.js">
+        <metrics statements="13" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="71" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.PillGroup">
+      <metrics statements="21" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="13" coveredmethods="3"/>
+      <file name="MPillGroup.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PillGroup/MPillGroup.vue">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="81" count="8" type="stmt"/>
+        <line num="84" count="2" type="stmt"/>
+        <line num="88" count="6" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="PillGroup.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PillGroup/PillGroup.stories.js">
+        <metrics statements="17" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.PricingExample">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="PricingExample.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PricingExample/PricingExample.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.PromoSticker">
+      <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="PromoSticker.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/PromoSticker/PromoSticker.stories.js">
+        <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.SearchButton">
+      <metrics statements="15" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="7" coveredmethods="0"/>
+      <file name="MSearchButton.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/SearchButton/MSearchButton.vue">
+        <metrics statements="9" coveredstatements="0" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="52" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="SearchButton.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/SearchButton/SearchButton.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.SiteTable">
+      <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="SiteTable.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/SiteTable/SiteTable.stories.js">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="120" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="219" count="0" type="stmt"/>
+        <line num="223" count="0" type="stmt"/>
+        <line num="227" count="0" type="stmt"/>
+      </file>
+      <file name="data.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/SiteTable/data.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.SmoothReflow">
+      <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="MSmoothReflow.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/SmoothReflow/MSmoothReflow.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="SmoothReflow.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/SmoothReflow/SmoothReflow.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Spacing">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="Spacing.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Spacing/Spacing.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.StripeCard">
+      <metrics statements="35" coveredstatements="21" conditionals="4" coveredconditionals="1" methods="18" coveredmethods="10"/>
+      <file name="MStripeCard.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/StripeCard/MStripeCard.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+      <file name="MStripeCard.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/StripeCard/MStripeCard.vue">
+        <metrics statements="31" coveredstatements="21" conditionals="4" coveredconditionals="1" methods="16" coveredmethods="10"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="37" count="2" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
+        <line num="39" count="2" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="61" count="2" type="stmt"/>
+        <line num="65" count="2" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="87" count="2" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="109" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="112" count="2" type="stmt"/>
+        <line num="113" count="2" type="stmt"/>
+        <line num="115" count="2" type="stmt"/>
+        <line num="119" count="1" type="stmt"/>
+        <line num="123" count="7" type="stmt"/>
+        <line num="125" count="1" type="stmt"/>
+        <line num="126" count="6" type="stmt"/>
+        <line num="129" count="1" type="stmt"/>
+        <line num="131" count="1" type="stmt"/>
+        <line num="136" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.Tag">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Tag.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/Tag/Tag.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="atoms.ValidationMessage">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="ValidationMessage.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/atoms/ValidationMessage/ValidationMessage.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Accordion">
+      <metrics statements="69" coveredstatements="0" conditionals="23" coveredconditionals="0" methods="30" coveredmethods="0"/>
+      <file name="Accordion.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Accordion/Accordion.stories.js">
+        <metrics statements="30" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="151" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="203" count="0" type="stmt"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="243" count="0" type="stmt"/>
+        <line num="260" count="0" type="stmt"/>
+        <line num="261" count="0" type="stmt"/>
+        <line num="295" count="0" type="stmt"/>
+        <line num="299" count="0" type="stmt"/>
+        <line num="316" count="0" type="stmt"/>
+        <line num="317" count="0" type="stmt"/>
+        <line num="328" count="0" type="stmt"/>
+        <line num="332" count="0" type="stmt"/>
+        <line num="360" count="0" type="stmt"/>
+      </file>
+      <file name="MAccordion.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Accordion/MAccordion.vue">
+        <metrics statements="16" coveredstatements="0" conditionals="15" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="MAccordionItem.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Accordion/MAccordionItem.vue">
+        <metrics statements="23" coveredstatements="0" conditionals="8" coveredconditionals="0" methods="13" coveredmethods="0"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="143" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="159" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="161" count="0" type="stmt"/>
+        <line num="162" count="0" type="stmt"/>
+        <line num="163" count="0" type="stmt"/>
+        <line num="164" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="170" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="177" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="molecules.AccreditationsBar">
+      <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="AccreditationsBar.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/AccreditationsBar/AccreditationsBar.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Block.Info">
+      <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="BlockInfo.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Block/Info/BlockInfo.stories.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Block.SlotImageSide">
+      <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="BlockSlotImageSide.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Block/SlotImageSide/BlockSlotImageSide.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+      </file>
+      <file name="MBlockSlotImageSide.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Block/SlotImageSide/MBlockSlotImageSide.vue">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Block.StatisticsItem">
+      <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="BlockStatisticsItem.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Block/StatisticsItem/BlockStatisticsItem.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+      </file>
+      <file name="MBlockStatisticsItem.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Block/StatisticsItem/MBlockStatisticsItem.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="25" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card">
+      <metrics statements="18" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="10" coveredmethods="4"/>
+      <file name="Card.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Card.stories.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+      </file>
+      <file name="MCard.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/MCard.vue">
+        <metrics statements="11" coveredstatements="8" conditionals="4" coveredconditionals="2" methods="6" coveredmethods="4"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="8" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="95" count="4" type="stmt"/>
+        <line num="102" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+    </package>
+    <package name="molecules.Card.Addon">
+      <metrics statements="15" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="6" coveredmethods="2"/>
+      <file name="AddonCard.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Addon/AddonCard.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+      </file>
+      <file name="MCardAddon.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Addon/MCardAddon.vue">
+        <metrics statements="11" coveredstatements="6" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="90" count="3" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="100" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="103" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.Feature">
+      <metrics statements="47" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="15" coveredmethods="1"/>
+      <file name="FeatureCard.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Feature/FeatureCard.stories.js">
+        <metrics statements="18" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+      </file>
+      <file name="FeatureCardMobile.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Feature/FeatureCardMobile.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+      </file>
+      <file name="FeatureCardRow.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Feature/FeatureCardRow.stories.js">
+        <metrics statements="21" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="57" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="70" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="96" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="123" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="154" count="0" type="stmt"/>
+        <line num="165" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="186" count="0" type="stmt"/>
+      </file>
+      <file name="MFeatureCard.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Feature/MFeatureCard.vue">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="97" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.Featured">
+      <metrics statements="20" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="0"/>
+      <file name="CardFeatured.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Featured/CardFeatured.stories.js">
+        <metrics statements="11" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+      </file>
+      <file name="MCardFeatured.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Featured/MCardFeatured.vue">
+        <metrics statements="9" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.Options">
+      <metrics statements="19" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="2"/>
+      <file name="MCardOptions.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Options/MCardOptions.vue">
+        <metrics statements="13" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="2"/>
+        <line num="69" count="1" type="stmt"/>
+        <line num="70" count="1" type="stmt"/>
+        <line num="71" count="1" type="stmt"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="124" count="2" type="stmt"/>
+        <line num="129" count="2" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+      </file>
+      <file name="OptionsCard.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Options/OptionsCard.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.Policy">
+      <metrics statements="16" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="10" coveredmethods="4"/>
+      <file name="MPolicyCard.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Policy/MPolicyCard.vue">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="46" count="1" type="stmt"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="86" count="15" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="PolicyCard.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Policy/PolicyCard.stories.js">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="117" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="148" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.PolicyBase">
+      <metrics statements="11" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="2"/>
+      <file name="MPolicyCardBase.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/PolicyBase/MPolicyCardBase.vue">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="51" count="1" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="54" count="1" type="stmt"/>
+        <line num="79" count="8" type="stmt"/>
+        <line num="89" count="8" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="PolicyCardBase.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/PolicyBase/PolicyCardBase.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.Settings">
+      <metrics statements="14" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="4"/>
+      <file name="MSettingsCard.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Settings/MSettingsCard.vue">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="41" count="1" type="stmt"/>
+        <line num="42" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="76" count="4" type="stmt"/>
+        <line num="83" count="4" type="stmt"/>
+        <line num="90" count="4" type="stmt"/>
+        <line num="97" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="102" count="2" type="stmt"/>
+      </file>
+      <file name="SettingsCard.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Settings/SettingsCard.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.Summary">
+      <metrics statements="15" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="8" coveredmethods="3"/>
+      <file name="CardSummary.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Summary/CardSummary.stories.js">
+        <metrics statements="10" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="44" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+      </file>
+      <file name="MCardSummary.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Summary/MCardSummary.vue">
+        <metrics statements="5" coveredstatements="4" conditionals="4" coveredconditionals="2" methods="4" coveredmethods="3"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+        <line num="54" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="61" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="68" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.TeamMember">
+      <metrics statements="31" coveredstatements="9" conditionals="10" coveredconditionals="6" methods="14" coveredmethods="4"/>
+      <file name="MTeamMember.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/TeamMember/MTeamMember.vue">
+        <metrics statements="12" coveredstatements="9" conditionals="10" coveredconditionals="6" methods="4" coveredmethods="4"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="48" count="4" type="stmt"/>
+        <line num="58" count="2" type="cond" truecount="2" falsecount="2"/>
+        <line num="59" count="2" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="65" count="3" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="70" count="2" type="cond" truecount="3" falsecount="1"/>
+        <line num="71" count="2" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+      </file>
+      <file name="TeamMember.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/TeamMember/TeamMember.stories.js">
+        <metrics statements="19" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="105" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="127" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="147" count="0" type="stmt"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Card.Wrap">
+      <metrics statements="9" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="3"/>
+      <file name="CardWrap.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Wrap/CardWrap.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+      </file>
+      <file name="MCardWrap.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Card/Wrap/MCardWrap.vue">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="73" count="1" type="stmt"/>
+        <line num="81" count="3" type="stmt"/>
+        <line num="97" count="42" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.ChoiceImages">
+      <metrics statements="7" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="3"/>
+      <file name="ChoiceImages.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/ChoiceImages/ChoiceImages.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+      </file>
+      <file name="MChoiceImages.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/ChoiceImages/MChoiceImages.vue">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="48" count="1" type="stmt"/>
+        <line num="65" count="5" type="stmt"/>
+        <line num="68" count="2" type="stmt"/>
+        <line num="72" count="3" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="molecules.Dropdown">
+      <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="1"/>
+      <file name="Dropdown.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Dropdown/Dropdown.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="55" count="0" type="stmt"/>
+      </file>
+      <file name="MDropdown.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Dropdown/MDropdown.vue">
+        <metrics statements="5" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.FeatureLogo">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="FeatureLogo.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/FeatureLogo/FeatureLogo.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.Modal">
+      <metrics statements="131" coveredstatements="16" conditionals="27" coveredconditionals="5" methods="53" coveredmethods="8"/>
+      <file name="MModal.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Modal/MModal.vue">
+        <metrics statements="63" coveredstatements="16" conditionals="24" coveredconditionals="5" methods="20" coveredmethods="8"/>
+        <line num="59" count="1" type="stmt"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="111" count="14" type="stmt"/>
+        <line num="127" count="14" type="stmt"/>
+        <line num="141" count="14" type="stmt"/>
+        <line num="151" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="152" count="2" type="stmt"/>
+        <line num="158" count="14" type="stmt"/>
+        <line num="160" count="14" type="stmt"/>
+        <line num="162" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="164" count="14" type="cond" truecount="2" falsecount="0"/>
+        <line num="165" count="12" type="stmt"/>
+        <line num="171" count="0" type="stmt"/>
+        <line num="172" count="0" type="stmt"/>
+        <line num="180" count="0" type="stmt"/>
+        <line num="184" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="187" count="0" type="stmt"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="197" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="198" count="0" type="stmt"/>
+        <line num="200" count="0" type="stmt"/>
+        <line num="201" count="0" type="stmt"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="205" count="0" type="stmt"/>
+        <line num="218" count="2" type="stmt"/>
+        <line num="227" count="0" type="stmt"/>
+        <line num="229" count="0" type="stmt"/>
+        <line num="232" count="0" type="stmt"/>
+        <line num="234" count="0" type="stmt"/>
+        <line num="237" count="0" type="stmt"/>
+        <line num="239" count="0" type="stmt"/>
+        <line num="248" count="0" type="stmt"/>
+        <line num="249" count="0" type="stmt"/>
+        <line num="261" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="262" count="0" type="stmt"/>
+        <line num="265" count="0" type="stmt"/>
+        <line num="266" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="267" count="0" type="stmt"/>
+        <line num="272" count="0" type="stmt"/>
+        <line num="283" count="0" type="stmt"/>
+        <line num="284" count="0" type="stmt"/>
+        <line num="288" count="0" type="stmt"/>
+        <line num="298" count="0" type="stmt"/>
+        <line num="302" count="0" type="stmt"/>
+        <line num="303" count="0" type="stmt"/>
+        <line num="306" count="0" type="stmt"/>
+        <line num="313" count="0" type="stmt"/>
+        <line num="314" count="0" type="stmt"/>
+        <line num="323" count="0" type="stmt"/>
+        <line num="325" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="326" count="0" type="stmt"/>
+        <line num="328" count="0" type="stmt"/>
+        <line num="329" count="0" type="stmt"/>
+        <line num="339" count="14" type="stmt"/>
+        <line num="340" count="14" type="stmt"/>
+        <line num="341" count="14" type="cond" truecount="1" falsecount="1"/>
+        <line num="342" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="343" count="0" type="stmt"/>
+        <line num="348" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="349" count="0" type="stmt"/>
+        <line num="351" count="0" type="stmt"/>
+      </file>
+      <file name="MModalContainer.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Modal/MModalContainer.vue">
+        <metrics statements="17" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="47" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="48" count="0" type="stmt"/>
+        <line num="50" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="62" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="64" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+      </file>
+      <file name="Modal.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/Modal/Modal.stories.js">
+        <metrics statements="51" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="26" coveredmethods="0"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="75" count="0" type="stmt"/>
+        <line num="76" count="0" type="stmt"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="186" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="191" count="0" type="stmt"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="256" count="0" type="stmt"/>
+        <line num="257" count="0" type="stmt"/>
+        <line num="287" count="0" type="stmt"/>
+        <line num="288" count="0" type="stmt"/>
+        <line num="292" count="0" type="stmt"/>
+        <line num="333" count="0" type="stmt"/>
+        <line num="334" count="0" type="stmt"/>
+        <line num="364" count="0" type="stmt"/>
+        <line num="365" count="0" type="stmt"/>
+        <line num="369" count="0" type="stmt"/>
+        <line num="413" count="0" type="stmt"/>
+        <line num="414" count="0" type="stmt"/>
+        <line num="450" count="0" type="stmt"/>
+        <line num="451" count="0" type="stmt"/>
+        <line num="455" count="0" type="stmt"/>
+        <line num="488" count="0" type="stmt"/>
+        <line num="490" count="0" type="stmt"/>
+        <line num="491" count="0" type="stmt"/>
+        <line num="495" count="0" type="stmt"/>
+        <line num="496" count="0" type="stmt"/>
+        <line num="500" count="0" type="stmt"/>
+        <line num="536" count="0" type="stmt"/>
+        <line num="555" count="0" type="stmt"/>
+        <line num="570" count="0" type="stmt"/>
+        <line num="583" count="0" type="stmt"/>
+        <line num="586" count="0" type="stmt"/>
+        <line num="589" count="0" type="stmt"/>
+        <line num="591" count="0" type="stmt"/>
+        <line num="595" count="0" type="stmt"/>
+        <line num="598" count="0" type="stmt"/>
+        <line num="602" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="603" count="0" type="stmt"/>
+        <line num="605" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.PaymentCard">
+      <metrics statements="9" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="6" coveredmethods="5"/>
+      <file name="MPaymentCard.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/PaymentCard/MPaymentCard.vue">
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <line num="89" count="1" type="stmt"/>
+        <line num="130" count="11" type="stmt"/>
+        <line num="133" count="11" type="stmt"/>
+        <line num="136" count="11" type="stmt"/>
+        <line num="137" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="140" count="11" type="stmt"/>
+        <line num="141" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="144" count="11" type="cond" truecount="2" falsecount="0"/>
+      </file>
+      <file name="PaymentCard.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/PaymentCard/PaymentCard.stories.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="13" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.PriceFooter">
+      <metrics statements="24" coveredstatements="1" conditionals="12" coveredconditionals="0" methods="16" coveredmethods="0"/>
+      <file name="MPriceFooter.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/PriceFooter/MPriceFooter.vue">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="72" count="1" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+      </file>
+      <file name="PriceFooter.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/PriceFooter/PriceFooter.stories.js">
+        <metrics statements="22" coveredstatements="0" conditionals="12" coveredconditionals="0" methods="15" coveredmethods="0"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="61" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="79" count="0" type="stmt"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="137" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="139" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="149" count="0" type="stmt"/>
+        <line num="155" count="0" type="stmt"/>
+        <line num="160" count="0" type="stmt"/>
+        <line num="167" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="226" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="228" count="0" type="stmt"/>
+        <line num="232" count="0" type="stmt"/>
+        <line num="238" count="0" type="stmt"/>
+        <line num="244" count="0" type="stmt"/>
+        <line num="249" count="0" type="stmt"/>
+        <line num="256" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="molecules.ProgressRing">
+      <metrics statements="11" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+      <file name="MProgressRing.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/ProgressRing/MProgressRing.vue">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="49" count="0" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+      </file>
+      <file name="ProgressRing.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/molecules/ProgressRing/ProgressRing.stories.js">
+        <metrics statements="7" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.MuttCurrencyInput">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MuttCurrencyInput.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/MuttCurrencyInput/MuttCurrencyInput.stories.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.MuttDropdownAutocomplete">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="MuttDropdownAutocomplete.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/MuttDropdownAutocomplete/MuttDropdownAutocomplete.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="31" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.MuttError">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MuttError.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/MuttError/MuttError.stories.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.MuttFieldWrapper">
+      <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="MuttFieldWrapper.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/MuttFieldWrapper/MuttFieldWrapper.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.MuttForm">
+      <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="MuttForm.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/MuttForm/MuttForm.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.MuttHelp">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MuttHelp.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/MuttHelp/MuttHelp.stories.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.MuttLabel">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MuttLabel.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/MuttLabel/MuttLabel.stories.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.MuttReadonly">
+      <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MuttReadonly.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/MuttReadonly/MuttReadonly.stories.js">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="mutt-forms.Telephone">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Telephone.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/mutt-forms/Telephone/Telephone.stories.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.Banner">
+      <metrics statements="52" coveredstatements="9" conditionals="8" coveredconditionals="0" methods="19" coveredmethods="4"/>
+      <file name="Banner.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/Banner/Banner.stories.js">
+        <metrics statements="38" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="108" count="0" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="116" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="132" count="0" type="stmt"/>
+        <line num="133" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="140" count="0" type="stmt"/>
+        <line num="158" count="0" type="stmt"/>
+        <line num="166" count="0" type="stmt"/>
+        <line num="184" count="0" type="stmt"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="196" count="0" type="stmt"/>
+        <line num="199" count="0" type="stmt"/>
+        <line num="207" count="0" type="stmt"/>
+        <line num="208" count="0" type="stmt"/>
+        <line num="212" count="0" type="stmt"/>
+        <line num="216" count="0" type="stmt"/>
+        <line num="234" count="0" type="stmt"/>
+        <line num="242" count="0" type="stmt"/>
+        <line num="243" count="0" type="stmt"/>
+        <line num="246" count="0" type="stmt"/>
+        <line num="250" count="0" type="stmt"/>
+        <line num="264" count="0" type="stmt"/>
+        <line num="272" count="0" type="stmt"/>
+        <line num="273" count="0" type="stmt"/>
+        <line num="282" count="0" type="stmt"/>
+        <line num="286" count="0" type="stmt"/>
+        <line num="301" count="0" type="stmt"/>
+      </file>
+      <file name="MBanner.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/Banner/MBanner.vue">
+        <metrics statements="14" coveredstatements="9" conditionals="8" coveredconditionals="0" methods="5" coveredmethods="4"/>
+        <line num="106" count="1" type="stmt"/>
+        <line num="107" count="1" type="stmt"/>
+        <line num="108" count="1" type="stmt"/>
+        <line num="109" count="1" type="stmt"/>
+        <line num="164" count="1" type="stmt"/>
+        <line num="171" count="1" type="stmt"/>
+        <line num="176" count="1" type="stmt"/>
+        <line num="179" count="1" type="stmt"/>
+        <line num="180" count="1" type="stmt"/>
+        <line num="185" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="186" count="0" type="stmt"/>
+        <line num="187" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="188" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.ImageTextBlock">
+      <metrics statements="37" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="17" coveredmethods="3"/>
+      <file name="ImageTextBlock.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/ImageTextBlock/ImageTextBlock.stories.js">
+        <metrics statements="31" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="14" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="134" count="0" type="stmt"/>
+        <line num="135" count="0" type="stmt"/>
+        <line num="152" count="0" type="stmt"/>
+        <line num="156" count="0" type="stmt"/>
+        <line num="157" count="0" type="stmt"/>
+        <line num="171" count="0" type="stmt"/>
+        <line num="175" count="0" type="stmt"/>
+        <line num="176" count="0" type="stmt"/>
+        <line num="185" count="0" type="stmt"/>
+        <line num="189" count="0" type="stmt"/>
+        <line num="190" count="0" type="stmt"/>
+        <line num="199" count="0" type="stmt"/>
+        <line num="203" count="0" type="stmt"/>
+        <line num="204" count="0" type="stmt"/>
+        <line num="207" count="0" type="stmt"/>
+        <line num="211" count="0" type="stmt"/>
+        <line num="212" count="0" type="stmt"/>
+        <line num="243" count="0" type="stmt"/>
+        <line num="247" count="0" type="stmt"/>
+        <line num="260" count="0" type="stmt"/>
+      </file>
+      <file name="MImageTextBlock.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/ImageTextBlock/MImageTextBlock.vue">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="126" count="1" type="stmt"/>
+        <line num="133" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.LoadingQuote">
+      <metrics statements="14" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="3"/>
+      <file name="LoadingQuote.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/LoadingQuote/LoadingQuote.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+      </file>
+      <file name="MLoadingQuote.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/LoadingQuote/MLoadingQuote.vue">
+        <metrics statements="10" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="59" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.NewsArticle">
+      <metrics statements="15" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="MNewsArticle.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/NewsArticle/MNewsArticle.vue">
+        <metrics statements="2" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+      </file>
+      <file name="NewsArticle.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/NewsArticle/NewsArticle.stories.js">
+        <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="47" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="112" count="0" type="stmt"/>
+        <line num="113" count="0" type="stmt"/>
+        <line num="129" count="0" type="stmt"/>
+        <line num="138" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.Paws">
+      <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="Paws.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/Paws/Paws.stories.js">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.PetSummary">
+      <metrics statements="15" coveredstatements="9" conditionals="5" coveredconditionals="4" methods="8" coveredmethods="2"/>
+      <file name="MPetSummary.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/PetSummary/MPetSummary.vue">
+        <metrics statements="9" coveredstatements="9" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="60" count="1" type="stmt"/>
+        <line num="61" count="1" type="stmt"/>
+        <line num="62" count="1" type="stmt"/>
+        <line num="63" count="1" type="stmt"/>
+        <line num="65" count="1" type="stmt"/>
+        <line num="66" count="1" type="stmt"/>
+        <line num="103" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="104" count="3" type="stmt"/>
+        <line num="107" count="3" type="cond" truecount="3" falsecount="0"/>
+      </file>
+      <file name="PetSummary.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/PetSummary/PetSummary.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="56" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.PolicyTable">
+      <metrics statements="15" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="2"/>
+      <file name="MPolicyTable.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/PolicyTable/MPolicyTable.vue">
+        <metrics statements="8" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="6" coveredmethods="2"/>
+        <line num="74" count="1" type="stmt"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="86" count="0" type="stmt"/>
+        <line num="89" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="114" count="12" type="stmt"/>
+      </file>
+      <file name="MPolicyTableFooter.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/PolicyTable/MPolicyTableFooter.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="35" count="0" type="stmt"/>
+      </file>
+      <file name="MPolicyTableHeader.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/PolicyTable/MPolicyTableHeader.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="PolicyTable.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/PolicyTable/PolicyTable.stories.js">
+        <metrics statements="5" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="115" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.SearchForm">
+      <metrics statements="10" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="MSearchForm.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SearchForm/MSearchForm.vue">
+        <metrics statements="6" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="59" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="61" count="0" type="stmt"/>
+      </file>
+      <file name="SearchForm.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SearchForm/SearchForm.stories.js">
+        <metrics statements="4" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.SiteFooter">
+      <metrics statements="12" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="2"/>
+      <file name="MSeSiteFooter.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SiteFooter/MSeSiteFooter.vue">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
+      </file>
+      <file name="MSiteFooter.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SiteFooter/MSiteFooter.vue">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+      </file>
+      <file name="MSiteFooterBase.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SiteFooter/MSiteFooterBase.vue">
+        <metrics statements="1" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="33" count="0" type="stmt"/>
+      </file>
+      <file name="SiteFooter.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SiteFooter/SiteFooter.stories.js">
+        <metrics statements="6" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.SiteHeader">
+      <metrics statements="21" coveredstatements="18" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="2"/>
+      <file name="MSeSiteHeader.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SiteHeader/MSeSiteHeader.vue">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="317" count="1" type="stmt"/>
+        <line num="318" count="1" type="stmt"/>
+        <line num="319" count="1" type="stmt"/>
+        <line num="320" count="1" type="stmt"/>
+        <line num="321" count="1" type="stmt"/>
+        <line num="344" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="345" count="1" type="stmt"/>
+        <line num="346" count="1" type="stmt"/>
+        <line num="348" count="1" type="stmt"/>
+      </file>
+      <file name="MSiteHeader.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SiteHeader/MSiteHeader.vue">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="273" count="1" type="stmt"/>
+        <line num="274" count="1" type="stmt"/>
+        <line num="275" count="1" type="stmt"/>
+        <line num="276" count="1" type="stmt"/>
+        <line num="277" count="1" type="stmt"/>
+        <line num="291" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="292" count="1" type="stmt"/>
+        <line num="293" count="1" type="stmt"/>
+        <line num="295" count="1" type="stmt"/>
+      </file>
+      <file name="SiteHeader.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SiteHeader/SiteHeader.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="29" count="0" type="stmt"/>
+        <line num="99" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.SocialLinks">
+      <metrics statements="10" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="3" coveredmethods="0"/>
+      <file name="MSocialLinks.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SocialLinks/MSocialLinks.vue">
+        <metrics statements="7" coveredstatements="0" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="65" count="0" type="cond" truecount="0" falsecount="3"/>
+      </file>
+      <file name="SocialLinks.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/SocialLinks/SocialLinks.stories.js">
+        <metrics statements="3" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.TabbedContent">
+      <metrics statements="17" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="9" coveredmethods="0"/>
+      <file name="MTabbedContent.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/TabbedContent/MTabbedContent.vue">
+        <metrics statements="5" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="72" count="0" type="stmt"/>
+      </file>
+      <file name="TabbedContent.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/TabbedContent/TabbedContent.stories.js">
+        <metrics statements="12" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="43" count="0" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="101" count="0" type="stmt"/>
+        <line num="110" count="0" type="stmt"/>
+        <line num="118" count="0" type="stmt"/>
+        <line num="119" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="130" count="0" type="stmt"/>
+        <line num="139" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="organisms.Testimonial">
+      <metrics statements="24" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="10" coveredmethods="0"/>
+      <file name="MTestimonial.vue" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/Testimonial/MTestimonial.vue">
+        <metrics statements="11" coveredstatements="0" conditionals="4" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="53" count="0" type="stmt"/>
+        <line num="54" count="0" type="stmt"/>
+        <line num="71" count="0" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="143" count="0" type="stmt"/>
+        <line num="146" count="0" type="stmt"/>
+        <line num="147" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="148" count="0" type="stmt"/>
+        <line num="149" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="150" count="0" type="stmt"/>
+        <line num="153" count="0" type="stmt"/>
+      </file>
+      <file name="Testimonial.stories.js" path="/Users/gavinfilmer/Documents/projects/bbm-patterns/src/components/organisms/Testimonial/Testimonial.stories.js">
+        <metrics statements="13" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="82" count="0" type="stmt"/>
+        <line num="83" count="0" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="94" count="0" type="stmt"/>
+        <line num="95" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="107" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

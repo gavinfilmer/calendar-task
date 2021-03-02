@@ -1,0 +1,357 @@
+// ******************** //
+//      TYPOGRAPHY      //
+// ******************** //
+
+// Font scale based on modular scale of 1.20.
+// Line heights on 1.50 ratio for paragraph copy, 1.04 ratio for heading copy.
+// Paragraph sizes same for mobile and desktop, Heading sizes smaller for mobile.
+// See font sizes spreadsheet for calculations and full details can be explained by Bert.
+
+// Set a default asset path
+$patterns-asset-path: "~@boughtbymany/patterns/src/assets" !default;
+
+// Set a default font path which works for dependants (this gets overridden by the Storybook SASS so it resolves correctly)
+$patterns-font-path: "~@boughtbymany/patterns/src/assets/fonts" !default;
+
+$font-family-serif: "freight-display-pro", Times, "Times New Roman", Georgia,
+  sans-serif !default;
+$font-family-sans-serif: "proxima-nova", "HelveticaNeue-Light",
+  "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+
+// Font sizes
+$font-size-base: 18px !default;
+$line-height-base: 1.5 !default;
+
+$font-size-xxl: 28px !default;
+$line-height-xxl: $line-height-base !default;
+
+$font-size-xl: 24px !default;
+$line-height-xl: $line-height-base !default;
+
+$font-size-lg: 20px !default;
+$line-height-lg: $line-height-base !default;
+
+$font-size-sm: 16px !default;
+$line-height-sm: $line-height-base !default;
+
+$font-size-xs: 13px !default;
+$line-height-xs: $line-height-base !default;
+
+$font-size-xxs: 11px !default;
+$line-height-xxs: $line-height-base !default;
+
+// Heading One dot color
+$title-dot-color: $color-bounce !default;
+
+// Headings (Mobile)
+$line-height-headings: 1.04;
+
+$font-size-h1: 36px !default;
+$line-height-h1: $line-height-headings !default;
+
+// Steps outside of the font scaling rule, by request of design team.
+$font-size-h2: 32px !default;
+$line-height-h2: 1.125 !default;
+
+$font-size-h3: 20px !default;
+$line-height-h3: $line-height-headings !default;
+
+$font-size-h4: $font-size-base !default;
+$line-height-h4: $line-height-base !default;
+
+// Headings (Desktop)
+$font-size-h1-desktop: 46px !default;
+$line-height-h1-desktop: $line-height-headings !default;
+
+// Steps outside of the font scaling rule, by request of design team.
+$font-size-h2-desktop: 36px !default;
+$line-height-h2-desktop: 1.125 !default;
+
+$font-size-h3-desktop: 22px !default;
+$line-height-h3-desktop: $line-height-headings !default;
+
+$font-size-h4-desktop: $font-size-h4 !default;
+$line-height-h4-desktop: $line-height-h4 !default;
+
+// Font size map
+$font-sizes: (
+  "base": (
+    "font-size": $font-size-base,
+    "line-height": $line-height-base
+  ),
+  "xxl": (
+    "font-size": $font-size-xxl,
+    "line-height": $line-height-xxl
+  ),
+  "xl": (
+    "font-size": $font-size-xl,
+    "line-height": $line-height-xl
+  ),
+  "lg": (
+    "font-size": $font-size-lg,
+    "line-height": $line-height-lg
+  ),
+  "sm": (
+    "font-size": $font-size-sm,
+    "line-height": $line-height-sm
+  ),
+  "xs": (
+    "font-size": $font-size-xs,
+    "line-height": $line-height-xs
+  ),
+  "xxs": (
+    "font-size": $font-size-xxs,
+    "line-height": $line-height-xxs
+  ),
+  "h1": (
+    "font-size": $font-size-h1,
+    "line-height": $line-height-h1,
+    "breakpoints": (
+      "xs-up": (
+        "font-size": $font-size-h1-desktop,
+        "line-height": $line-height-h1-desktop
+      )
+    )
+  ),
+  "h2": (
+    "font-size": $font-size-h2,
+    "line-height": $line-height-h2,
+    "breakpoints": (
+      "xs-up": (
+        "font-size": $font-size-h2-desktop,
+        "line-height": $line-height-h2-desktop
+      )
+    )
+  ),
+  "h3": (
+    "font-size": $font-size-h3,
+    "line-height": $line-height-h3,
+    "breakpoints": (
+      "xs-up": (
+        "font-size": $font-size-h3-desktop,
+        "line-height": $line-height-h3-desktop
+      )
+    )
+  ),
+  "h4": (
+    "font-size": $font-size-h4,
+    "line-height": $line-height-h4,
+    "breakpoints": (
+      "xs-up": (
+        "font-size": $font-size-h4-desktop,
+        "line-height": $line-height-h4-desktop
+      )
+    )
+  )
+);
+
+// Font weights
+$font-weight-light: 300 !default; // Proxima Nova Light / FreightDisp Pro Book Light
+$font-weight-regular: 400 !default; // Proxima Nova Regular / FreightDisp Pro Book
+$font-weight-semibold: 500 !default; // Proxima Nova Semibold / FreightDisp Pro Semibold
+$font-weight-bold: 600 !default; // Proxima Nova Bold / FreightDisp Pro Bold
+
+// Scaffolding
+$link-hover-decoration: underline !default; // Global text link hover decoration
+
+// ******************** //
+//       PADDING        //
+// ******************** //
+
+//  HORIZONTAL PADDING based on 5px grid
+// >>> Left & Right padding variables
+
+// base- horizontal padding = 5px
+$base-h-padding: 5px !default;
+
+$pad-h-xs: $base-h-padding * 1 !default; // 5px
+$pad-h-sm: $base-h-padding * 2 !default; // 10px
+$pad-h-md: $base-h-padding * 3 !default; // 15px
+$pad-h-lg: $base-h-padding * 4 !default; // 20px
+$pad-h-xl: $base-h-padding * 6 !default; // 30px
+$pad-h-xxl: $base-h-padding * 8 !default; // 40px
+$pad-h-xxxl: $base-h-padding * 9 !default; // 45px
+$pad-h-xxxxl: $base-h-padding * 10 !default; // 45px
+
+// VERTICAL PADDING based on 4px grid
+// ^^^ Top & Bottom padding variables
+
+// 4px (Gap between similar text objects, e.g. bullet points)
+// 8px (Gap between text objects to differentiate hierarchy - e.g. paragraph header & description on cards)
+// 12px (Gap between objects in a component - e,g. title, horizontal line, thumbnail)
+// 16px (Gap between headers and body)
+// 24/32px (Gap between components - e.g. cards, Cards’ Inner top/bottom padding)
+// 48px (Gap separating CTA from content)
+// Desktop : 80px, Mobile : 60px (Section Inner top/bottom padding)
+
+// base vertical padding = 4px
+$base-v-padding: 4px;
+
+$pad-v-xxxs: $base-v-padding * 1 !default; // 4px
+$pad-v-xxs: $base-v-padding * 2 !default; // 8px
+$pad-v-xs: $base-v-padding * 3 !default; // 12px
+$pad-v-sm: $base-v-padding * 4 !default; // 16px
+$pad-v-md: $base-v-padding * 6 !default; // 24px
+$pad-v-lg: $base-v-padding * 8 !default; // 32px
+$pad-v-xl: $base-v-padding * 12 !default; // 48px
+$pad-v-xxl: $base-v-padding * 15 !default; // 60px - Mobile
+$pad-v-xxxl: $base-v-padding * 20 !default; // 80px - Desktop
+// ^ Responsive rules to be used for the above
+
+// ******************** //
+//      GRID            //
+// ******************** //
+
+$screen-xxs: 375px;
+$screen-xs: 768px;
+$screen-sm: 1024px;
+$screen-md: 1280px;
+$screen-lg: 1440px;
+$screen-xl: 1920px;
+
+$screen-xxs-max: ($screen-xs - 1) !default;
+$screen-xs-max: ($screen-sm - 1) !default;
+$screen-sm-max: ($screen-md - 1) !default;
+$screen-md-max: ($screen-lg - 1) !default;
+$screen-lg-max: ($screen-xl - 1) !default;
+
+$gutter: $pad-h-xl;
+$gutter-sm: $pad-h-md;
+$gutter-xs: $pad-h-sm; // Used for grid gutters
+
+$container-xl: 1640px;
+$container-lg: 1280px;
+$container-md: 1175px;
+$container-sm: 956px;
+$container-xs: 700px;
+$container-xxs: 500px;
+
+// Override Bulma default variables
+$column-gap: $gutter-xs;
+$gap: $column-gap;
+$tablet: $screen-sm;
+$desktop: $screen-md;
+$widescreen: $screen-lg;
+$fullhd: $screen-xl;
+
+// ******************** //
+//       Z-INDEX        //
+// ******************** //
+
+$zindex-header: 1020 !default;
+$zindex-dropdown: 1030 !default;
+$zindex-sticky: 1030 !default;
+$zindex-nav-overlay: 1000 !default;
+$zindex-modal-overlay: 1040 !default;
+$zindex-modal: 1050 !default;
+
+// ******************** //
+//      ANIMATIONS      //
+// ******************** //
+
+$animation-speed: 0.3s !default;
+$animation-speed-fast: ($animation-speed / 2) !default;
+$animation-speed-slow: ($animation-speed * 3) !default;
+
+// ******************** //
+//      HELPERS	        //
+// ******************** //
+
+// Misc. helper classes and values
+
+// Border radius
+$border-radius-base: 12px;
+$border-radius-sm: 6px;
+$border-radius-lg: 24px;
+
+// Shadows
+$shadow-low: 0 2px 4px 0 rgba(43, 62, 72, 0.25);
+
+// ******************** //
+//    HEADER HEIGHTS    //
+// ******************** //
+
+$header-height-sm: 80px;
+$header-height-lg: 90px;
+
+// ******************** //
+//      BUTTONS	        //
+// ******************** //
+
+$button-background: transparent !default;
+$button-border: 1px solid transparent !default;
+$button-border-radius: 6px !default;
+$button-color: $color-text !default;
+$button-font-family: $font-family-sans-serif !default;
+$button-font-weight: 500 !default;
+$button-line-height: 24px !default;
+$button-padding-horizontal: $pad-h-md !default;
+$button-padding-vertical: $pad-v-xxs !default;
+$button-padding: $button-padding-vertical $button-padding-horizontal !default;
+
+// Variations
+
+// Primary
+$button-background-primary: $color-eire !default;
+$button-border-primary: $button-border !default;
+$button-color-primary: $color-white !default;
+
+$button-background-primary-hover: $color-eire-darker !default;
+$button-border-primary-hover: $button-border-primary !default;
+$button-color-primary-hover: $button-color-primary !default;
+
+$button-background-primary-disabled: $color-grey-mid-light !default;
+$button-border-primary-disabled: $button-border-primary !default;
+$button-color-primary-disabled: $button-color-primary !default;
+
+// Pop
+$button-background-pop: $color-bounce-safe !default;
+$button-border-pop: $button-border !default;
+$button-color-pop: $color-white !default;
+
+$button-background-pop-hover: $color-bounce-darker !default;
+$button-border-pop-hover: $button-border-pop !default;
+$button-color-pop-hover: $button-color-pop !default;
+
+$button-background-pop-disabled: $color-grey-mid-light !default;
+$button-border-pop-disabled: $button-border-pop !default;
+$button-color-pop-disabled: $button-color-pop !default;
+
+// Secondary
+$button-background-secondary: transparent !default;
+$button-border-secondary: 1px solid $color-eire !default;
+$button-color-secondary: $color-text !default;
+
+$button-background-secondary-hover: $color-eire !default;
+$button-border-secondary-hover: $button-border-secondary !default;
+$button-color-secondary-hover: $color-white !default;
+
+$button-background-secondary-disabled: transparent !default;
+$button-border-secondary-disabled: 1px solid $color-grey-mid-light !default;
+$button-color-secondary-disabled: $color-grey-mid-light !default;
+
+// Multipet
+$button-background-multipet: $color-happy !default;
+$button-border-multipet: $button-border !default;
+$button-color-multipet: $color-sailor !default;
+
+$button-background-multipet-hover: $color-happy-hover !default;
+$button-border-multipet-hover: $button-border-multipet !default;
+$button-color-multipet-hover: $button-color-multipet !default;
+
+$button-background-multipet-disabled: $color-grey-mid-light !default;
+$button-border-multipet-disabled: $button-border-multipet !default;
+$button-color-multipet-disabled: $color-white !default;
+
+// Active
+$button-background-active: $color-sailor !default;
+$button-border-active: 1px solid $color-sailor !default;
+$button-color-active: $color-white !default;
+
+$button-background-active-hover: $color-sailor-hover !default;
+$button-border-active-hover: $button-border-active !default;
+$button-color-active-hover: $color-white !default;
+
+$button-background-active-disabled: transparent !default;
+$button-border-active-disabled: $color-grey-mid-light !default;
+$button-color-active-disabled: $color-grey-mid-light !default;

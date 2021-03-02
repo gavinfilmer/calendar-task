@@ -1,0 +1,19 @@
+@mixin font-size($size) {
+  $values: map-get($font-sizes, $size);
+
+  @each $name, $value in $values {
+    @if $name != breakpoints {
+      #{$name}: $value;
+    }
+  }
+
+  @each $breakpoint, $breakpointProperties in map-get($values, "breakpoints") {
+    @if $breakpoint != base {
+      @include breakpoint($breakpoint) {
+        @each $name, $value in $breakpointProperties {
+          #{$name}: $value;
+        }
+      }
+    }
+  }
+}

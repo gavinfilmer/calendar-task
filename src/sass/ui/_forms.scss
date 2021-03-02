@@ -1,0 +1,116 @@
+::-moz-placeholder {
+  color: $color-grey-mid;
+  font-weight: $font-weight-regular;
+  opacity: 0.35;
+}
+
+:-ms-input-placeholder {
+  color: $color-grey-mid !important;
+  font-weight: $font-weight-regular;
+}
+
+::-webkit-input-placeholder {
+  color: $color-grey-mid;
+  font-weight: $font-weight-regular;
+  opacity: 0.35;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  min-width: 0;
+  padding: 0;
+}
+
+legend {
+  @include font-size(h2);
+  border: 0;
+  display: block;
+  font-family: $font-family-serif;
+  font-weight: $font-weight-bold;
+  margin-bottom: $pad-v-md;
+  padding: 0;
+  width: 100%;
+}
+
+label {
+  @include font-size("base");
+  display: block;
+  font-family: $font-family-sans-serif;
+  font-weight: $font-weight-bold;
+  margin-bottom: 0;
+}
+
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="date"],
+input[type="tel"],
+textarea {
+  @include input;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 10px 0 0;
+}
+
+// Search inputs in iOS
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+// Focus for file, radio, and checkbox
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+textarea {
+  @include input;
+  min-height: 200px;
+}
+
+select {
+  @include input;
+  @include select-toggle;
+
+  &:-moz-focusring {
+    // removes inner border in FF
+    color: transparent;
+    text-shadow: 0 0 0 $color-black;
+  }
+
+  &::-ms-expand {
+    /* for IE 11 */
+    display: none;
+  }
+
+  option {
+    border: none;
+    outline: none;
+  }
+}

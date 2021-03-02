@@ -1,0 +1,64 @@
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2019 Fontspring
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      GarageFonts
+ * License URL: https://www.fontspring.com/licenses/garagefonts/webfont
+ *
+ *
+ */
+
+@font-face {
+  font-display: swap;
+  font-family: "freight-display-pro";
+  font-style: normal;
+  font-weight: $font-weight-bold;
+  src: url("#{$patterns-font-path}/freight-pro-display/freigdisprobol-webfont.woff")
+      format("woff"),
+    url("#{$patterns-font-path}/freight-pro-display/freigdisprobol-webfont.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "proxima-nova";
+  font-style: normal;
+  font-weight: $font-weight-regular;
+  src: url("#{$patterns-font-path}/proxima-nova/proximanova-regular-webfont.woff")
+      format("woff"),
+    url("#{$patterns-font-path}/proxima-nova/proximanova-regular-webfont.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "proxima-nova";
+  font-style: normal;
+  font-weight: $font-weight-semibold;
+  src: url("#{$patterns-font-path}/proxima-nova/proximanova-semibold-webfont.woff")
+      format("woff"),
+    url("#{$patterns-font-path}/proxima-nova/proximanova-semibold-webfont.woff2")
+      format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "proxima-nova";
+  font-style: normal;
+  font-weight: $font-weight-bold;
+  src: url("#{$patterns-font-path}/proxima-nova/proximanova-bold-webfont.woff")
+      format("woff"),
+    url("#{$patterns-font-path}/proxima-nova/proximanova-bold-webfont.woff2")
+      format("woff2");
+}

@@ -1,0 +1,153 @@
+// Icon list
+.list {
+  &--unstyled {
+    // Remove default list styles
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  // List with inline items
+  &--padded {
+    > li {
+      margin-bottom: $pad-v-xxs;
+    }
+  }
+
+  &--content-aligned {
+    // Push list items inline with text content
+    padding-left: 20px;
+  }
+
+  &--all-discs {
+    // Make all unordered list items have disc style
+    // and not inherit nested circle or square
+    // FIX ME / TODO
+    // feels like there could be a more succinct way of doing this?
+    &ul li,
+    ul li,
+    ul li ul li,
+    ol li ul li {
+      list-style: disc;
+    }
+  }
+
+  &--inline {
+    display: flex;
+    flex-wrap: wrap;
+    // Remove default list styles
+    list-style: none;
+    margin-left: 0;
+    padding: 0;
+
+    > li {
+      align-items: center;
+      display: flex;
+      margin-right: $pad-h-lg;
+
+      @include breakpoint(md-up) {
+        margin-right: $pad-h-xl;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  // Lists with multiple columns (viewport dependent)
+  &--columns-2,
+  &--columns-3 {
+    @include breakpoint(sm-up) {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+
+      > li {
+        margin-right: $gutter;
+      }
+    }
+  }
+
+  &--columns-2 > li {
+    @include breakpoint(sm-up) {
+      width: calc(50% - #{$gutter});
+    }
+  }
+
+  &--columns-3 > li {
+    @include breakpoint(sm-up) {
+      width: calc(50% - #{$gutter});
+    }
+
+    @include breakpoint(lg-up) {
+      width: calc((100% / 3) - #{$gutter});
+    }
+  }
+
+  // List with items centered. Best used with list--inline.
+  &--centered {
+    justify-content: center;
+
+    > li,
+    > li:last-child {
+      margin-left: $pad-h-sm;
+      margin-right: $pad-h-sm;
+
+      @include breakpoint(md-up) {
+        margin-left: $pad-h-md;
+        margin-right: $pad-h-md;
+      }
+    }
+  }
+
+  // Set hover on list to reduce all opacity
+  // then bring focus on hovered item with full opacity
+  // Best used on icon lists. For on desktop only
+  &--animated {
+    @include breakpoint(sm-up) {
+      a {
+        transition: opacity $animation-speed ease,
+          transform $animation-speed ease;
+      }
+
+      &:hover a {
+        opacity: 0.75;
+
+        &:hover {
+          opacity: 1;
+          transform: scale(1.1);
+        }
+
+        &:focus {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+
+  // Star icons instead of discs
+  &--star {
+    list-style-type: "⭑ ";
+  }
+
+  &--tick {
+    list-style-type: none;
+    li {
+      padding-left: 30px;
+      position: relative;
+
+      &::before {
+        background: url("#{$patterns-asset-path}/svg/tick-navy-circle.svg")
+          no-repeat center center;
+        background-size: 1.25em;
+        content: "";
+        height: 1.25em;
+        left: 0;
+        position: absolute;
+        top: 0.125em;
+        width: 1.25em;
+      }
+    }
+  }
+}

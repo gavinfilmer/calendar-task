@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MMessageBox it renders correctly 1`] = `
+<div role="status" class="message-box">
+  <div data-qa-locator="qa-loc" class="message-box__container message-box__container--info">
+    <div class="message-box__icon"></div>
+    <div class="message-box__content">
+      <div>This is content</div>
+    </div>
+  </div>
+</div>
+`;

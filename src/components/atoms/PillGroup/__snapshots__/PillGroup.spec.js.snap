@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PillGroup it should accept a block prop 1`] = `
+<div class="m-pill-group m-pill-group--block" name="a">
+  <div data-qa-locator="radio-option-a-1" class="m-pill-group__pill"><input id="radio-option-a-1" type="radio" name="a" class="m-pill-group__input" value="1"> <label for="radio-option-a-1" data-qa-locator="radio-option-a-1-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        1
+      </span></label></div>
+</div>
+`;
+
+exports[`PillGroup it should accept a merged prop 1`] = `
+<div class="m-pill-group m-pill-group--merged" name="a">
+  <div data-qa-locator="radio-option-a-1" class="m-pill-group__pill"><input id="radio-option-a-1" type="radio" name="a" class="m-pill-group__input" value="1"> <label for="radio-option-a-1" data-qa-locator="radio-option-a-1-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        1
+      </span></label></div>
+</div>
+`;
+
+exports[`PillGroup it should accept a stretch prop 1`] = `
+<div class="m-pill-group m-pill-group--stretch" name="a">
+  <div data-qa-locator="radio-option-a-1" class="m-pill-group__pill"><input id="radio-option-a-1" type="radio" name="a" class="m-pill-group__input" value="1"> <label for="radio-option-a-1" data-qa-locator="radio-option-a-1-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        1
+      </span></label></div>
+</div>
+`;
+
+exports[`PillGroup it should render correctly and emit the event when each pill is selected 1`] = `
+<div class="m-pill-group">
+  <div data-qa-locator="radio-option-1" class="m-pill-group__pill m-pill-group__pill--checked"><input id="radio-option-1" type="radio" class="m-pill-group__input" value="1"> <label for="radio-option-1" data-qa-locator="radio-option-1-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        1
+      </span></label></div>
+  <div data-qa-locator="radio-option-2" class="m-pill-group__pill"><input id="radio-option-2" type="radio" class="m-pill-group__input" value="2"> <label for="radio-option-2" data-qa-locator="radio-option-2-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        2
+      </span></label></div>
+</div>
+`;
+
+exports[`PillGroup it should render correctly and emit the event when each pill is selected 2`] = `
+<div class="m-pill-group">
+  <div data-qa-locator="radio-option-1" class="m-pill-group__pill"><input id="radio-option-1" type="radio" class="m-pill-group__input" value="1"> <label for="radio-option-1" data-qa-locator="radio-option-1-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        1
+      </span></label></div>
+  <div data-qa-locator="radio-option-2" class="m-pill-group__pill m-pill-group__pill--checked"><input id="radio-option-2" type="radio" class="m-pill-group__input" value="2"> <label for="radio-option-2" data-qa-locator="radio-option-2-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        2
+      </span></label></div>
+</div>
+`;
+
+exports[`PillGroup it should render correctly when not selected 1`] = `
+<div class="m-pill-group">
+  <div data-qa-locator="radio-option-1" class="m-pill-group__pill"><input id="radio-option-1" type="radio" class="m-pill-group__input" value="1"> <label for="radio-option-1" data-qa-locator="radio-option-1-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        1
+      </span></label></div>
+  <div data-qa-locator="radio-option-2" class="m-pill-group__pill"><input id="radio-option-2" type="radio" class="m-pill-group__input" value="2"> <label for="radio-option-2" data-qa-locator="radio-option-2-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        2
+      </span></label></div>
+</div>
+`;
+
+exports[`PillGroup it should render correctly with a unique identifier 1`] = `
+<div class="m-pill-group" name="a">
+  <div data-qa-locator="radio-option-a-1" class="m-pill-group__pill"><input id="radio-option-a-1" type="radio" name="a" class="m-pill-group__input" value="1"> <label for="radio-option-a-1" data-qa-locator="radio-option-a-1-button" class="m-pill-group__label"><span class="m-pill-group__tick"><m-icon-stub icon="check"></m-icon-stub></span> <span class="m-pill-group__text">
+        1
+      </span></label></div>
+</div>
+`;

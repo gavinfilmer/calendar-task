@@ -1,0 +1,52 @@
+@mixin input {
+  @include font-size(base);
+  appearance: none;
+  background: $color-white;
+  border: 1px solid $color-clay-dark;
+  border-radius: $border-radius-sm;
+  color: $color-text;
+  display: block;
+  padding: $pad-v-xxs $pad-h-md;
+  transition: border-color ease-in-out $animation-speed-fast;
+  width: 100%;
+
+  &:focus {
+    outline: 0;
+  }
+
+  &:focus,
+  &:hover,
+  &:focus-within {
+    border-color: $color-eire;
+  }
+
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: not-allowed;
+
+    &::-moz-placeholder {
+      color: $color-grey-mid-light;
+    }
+
+    &:-ms-input-placeholder {
+      color: $color-grey-mid-light;
+    }
+
+    &::-webkit-input-placeholder {
+      color: $color-grey-mid-light;
+    }
+  }
+
+  // Webkit autofill styling override
+  @-webkit-keyframes autofill {
+    to {
+      background: $color-white;
+      color: $color-text;
+    }
+  }
+
+  &:-webkit-autofill {
+    -webkit-animation-fill-mode: both;
+    -webkit-animation-name: autofill;
+  }
+}

@@ -1,0 +1,54 @@
+// ******************** //
+//        COLORS        //
+// ******************** //
+
+// Primary
+$color-eire: #506b57 !default;
+$color-eire-lighter: #899b8e;
+$color-eire-darker: darken($color-eire, 8%) !default;
+
+$color-bounce: #f92672 !default;
+$color-bounce-darker: darken($color-bounce, 15%) !default;
+$color-bounce-safe: #d8316c !default; // Needed because white text on $color-bounce causes an a11y insufficient colour contrast violation
+
+$color-sailor: #304858 !default;
+$color-sailor-hover: #2b3d49 !default; // Sailor :hover ??
+$color-sailor-tint: #3d5869 !default; // Sailor tint ??
+
+$color-happy: #fcca1b !default;
+$color-happy-hover: #edbe1a !default;
+
+$color-frances: #5890f8 !default;
+$color-cheeky: #f96c46 !default;
+$color-loyal: #45477c !default;
+$color-barely: #f4f5f9 !default;
+$color-fairly: #fff7fa !default;
+$color-rarely: #fff4e7 !default;
+$color-grey-green: #f0f3ef !default; // TODO: Colour is currently unnamed in Toolkit
+
+// Greys
+$color-grey-dark: #223e49 !default; // Deep
+$color-grey-mid: #808e97 !default; // Audrey
+$color-grey-mid-light: lighten(
+  $color-grey-mid,
+  20%
+) !default; // disabled btn colour
+$color-grey-light: #eaecf2 !default; // Footer background only
+
+// New "Clay" greys for home page
+$color-clay-light: #e8eef1 !default; // Clay Light
+$color-clay-dark: #c3cfd4 !default; // Clay Dark
+
+// States
+$color-success: #038351 !default; // Success
+$color-error: #a20212 !default; // Error
+
+// Others
+$color-white: #fff !default; // Air
+$color-black: #000 !default;
+$color-black-overlay: rgba(0, 0, 0, 0.08); // Black overlay for image hovers
+
+// Functional
+$color-text: $color-sailor !default; // Global text colour
+$color-link: $color-eire !default; // Global text link colour
+$color-link-hover: $color-eire-darker !default;

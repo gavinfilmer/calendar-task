@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for MAccordion.vue</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="prettify.css" />
+    <link rel="stylesheet" href="base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="index.html">All files</a> MAccordion.vue
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>0/16</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/13</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>0/2</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>0/16</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;script&gt;
+<span class="cstat-no" title="statement not covered" >import { cloneVNode } from '../lib/Utils'</span>
+&nbsp;
+export default {
+  name: 'MAccordion',
+  data() {
+<span class="cstat-no" title="statement not covered" >    return {</span>
+      openIndex: null,
+    }
+  },
+  methods: {
+<span class="branch-0 cbranch-no" title="branch not covered" >    setOpenIndex(index, shouldOpen = true) {</span>
+      // Set the index passed as the open index if `shouldOpen` is `true`. If
+      // it's false, we "close" it, by setting the open index to null, but only
+      // if it's the currently selected index.
+<span class="cstat-no" title="statement not covered" >      if (shouldOpen) {</span>
+<span class="cstat-no" title="statement not covered" >        this.openIndex = index</span>
+<span class="cstat-no" title="statement not covered" >      } else if (this.openIndex === index) {</span>
+<span class="cstat-no" title="statement not covered" >        this.openIndex = null</span>
+      }
+    },
+  },
+  render(h) {
+    // We use a render function here rather than the standard template because
+    // we need to iterate over our default slot's children and add a prop and a
+    // listener to each node in there. This can't be done in a template.
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    const moreInfoSection = this.$slots.moreInfo</span>
+      ? h('div', { attrs: { class: 'more-info' } }, this.$slots.moreInfo)
+      : null
+&nbsp;
+<span class="cstat-no" title="statement not covered" >    return h(</span>
+      'div',
+<span class="fstat-no" title="function not covered" >      {</span>
+        attrs: {
+          class: 'm-accordion-wrapper',
+        },
+      },
+      [
+        ...this.$slots.default.map((vNode, index) =&gt; {
+          // Clone the vNode from the slot and then add our own prop/listener on
+          // top.
+<span class="cstat-no" title="statement not covered" >          const newVNode = cloneVNode(vNode)</span>
+<span class="cstat-no" title="statement not covered" >          const nodeOptions = newVNode.componentOptions</span>
+&nbsp;
+          // Only add our data if the node is a component rather than an HTML
+          // element.
+<span class="cstat-no" title="statement not covered" >          if (nodeOptions) {</span>
+<span class="cstat-no" title="statement not covered" >            nodeOptions.propsData = nodeOptions.propsData || {}</span>
+<span class="cstat-no" title="statement not covered" >            nodeOptions.listeners = nodeOptions.listeners || {}</span>
+&nbsp;
+<span class="cstat-no" title="statement not covered" >            nodeOptions.propsData.open = index === this.openIndex</span>
+<span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >            nodeOptions.listeners.requestOpen = shouldOpen =&gt;</span></span>
+              this.setOpenIndex(index, shouldOpen)
+          }
+<span class="cstat-no" title="statement not covered" >          return newVNode</span>
+        }),
+        moreInfoSection,
+      ]
+    )
+  },
+}
+&lt;/script&gt;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Tue Feb 18 2020 13:28:11 GMT+0000 (Greenwich Mean Time)
+</div>
+</div>
+<script src="prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="sorter.js"></script>
+</body>
+</html>

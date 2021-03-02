@@ -1,0 +1,25 @@
+// dashed-border
+@mixin dashed-border($direction) {
+  $border-direction: if($direction == h, right, top);
+  $border-position: if($direction == h, bottom center, right center);
+  $repeat-direction: if($direction == h, repeat-x, repeat-y);
+
+  background-image: linear-gradient(
+    to $border-direction,
+    $color-grey-mid 50%,
+    rgba(255, 255, 255, 0) 0%
+  );
+  background-position: $border-position;
+  background-repeat: $repeat-direction;
+  background-size: if($direction == h, 10px 1px, 1px 10px);
+}
+
+// Add horizontal dashed line
+@mixin dashed-border-h {
+  @include dashed-border(h);
+}
+
+// Add vertical dashed line
+@mixin dashed-border-v {
+  @include dashed-border(v);
+}
