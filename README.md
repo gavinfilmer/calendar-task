@@ -13,6 +13,8 @@ approach, using BEM in the SASS, and creating reusable, content-agnostic
 components that would be easily adopted across different projects and in
 multiple regions.
 
+![image](https://user-images.githubusercontent.com/47392494/109778766-1db0cb00-7bfd-11eb-9af2-c3d6e91b09ea.png)
+
 
 ## Requirements
 - Node.js
@@ -24,3 +26,12 @@ multiple regions.
   `npm install`
 3. Run Storybook
   `npm run storybook`
+
+
+## A few things to help get you started
+
+ - The calendar HTML should live in `Calendar.vue` and should be visible in storybook using a `.stories` file to create it’s own story/stories
+ - CSS should be written in SASS. Grunt is set up to watch your SASS files, so just save the SASS file and refresh the page in your browser to see your changes
+ - The calendar component needs to be responsive. There is a mobile and desktop design
+ - Please re-use existing variables where you can (these can be found in `/scss/framework/_variables.scss`)
+ - To save you time we've created the icons you need. Take a look at the icons story in storybook to see the icons available to you and how to use them
