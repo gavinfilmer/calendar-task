@@ -2,7 +2,7 @@
 
 > FE dev task to build a Calendar widget within Storybook
 
-## Instructions
+## Instructions
 
 We would like you to build out a calendar widget within storybook. This is
 primarily an HTML/CSS task, but will touch on the lighter side of Vue/Javascript.
